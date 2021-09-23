@@ -1,0 +1,21 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #3e8154;
+  --second-brand-color: #c0d6b9;
+  --third-brand-color: #83b886;
+  --fourth-brand-color: #ce1e33;
+
+  --main-font: 'Oswald';
+  --title-font: 'Noto Sans Mono';
+  --sub-title-font: 'Baskerville';
+
+  font-size: 62.5%;
+}

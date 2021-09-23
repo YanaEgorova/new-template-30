@@ -1,0 +1,41 @@
+.hero__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.hero__wrapper::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: var(--second-brand-color);
+    height: 100%;
+    width: 100%;
+    display: block;
+    content:'';
+    transform: translate(-50%, -50%);
+    border-radius: 0 0 100% 100%;
+}
+.hero {
+    padding: 15rem 0;
+    position: relative;
+}
+.hero .title {
+    color: var(--third-brand-color);
+    margin-bottom: 8rem;
+    line-height: 1;
+}
+.icons-block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 100%;
+}
+.icon {
+    max-width: 10rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        /* padding: 40rem 0; */
+    }
+}
